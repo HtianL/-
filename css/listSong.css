@@ -1,0 +1,247 @@
+@charset "UTF-8";
+.header {
+    flex-wrap: wrap;
+    height: 1.588rem;
+    padding: 0.195rem 0.112rem 0 0.148rem;
+    background: red;
+}
+
+.header .title {
+    display: flex;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.header .title a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 0.177rem;
+    flex: 0 0 0.177rem;
+    color: #fff;
+}
+
+.header .title a i {
+    font-size: 0.177rem;
+}
+
+.header .title .center {
+    display: flex;
+    flex: 1;
+}
+
+.header .text {
+    margin-top: 0.58rem;
+    color: #d3d3d3;
+}
+
+.header .text .Inosuke {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    box-sizing: border-box;
+    color: #d3d3d3;
+}
+
+.header .text .Inosuke .left {
+    font-size: 0.1rem;
+    color: #fff;
+}
+
+.header .text .Inosuke .left span {
+    font-size: 0.17rem;
+}
+
+.header .text .Inosuke .right {
+    font-size: 0.13rem;
+}
+
+.header .text .Inosuke .right img {
+    width: 0.35rem;
+}
+
+.header .text .friends {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    box-sizing: border-box;
+}
+
+.header .text .friends .left {
+    font-size: 0.077rem;
+}
+
+.header .text .friends .right {
+    font-size: 0.124rem;
+}
+
+.header .text .friends .right img {
+    margin-top: 0.035rem;
+    width: 0.195rem;
+    border-radius: 50%;
+    border: 0.09rem solid #fff;
+}
+
+.header .text .friends .right i {
+    font-size: 0.13rem;
+}
+
+.container {
+    margin-top: -0.11rem;
+    padding: 0.11rem 0.13rem;
+    border-radius: 0.11rem 0.11rem 0 0;
+    background-color: #fff;
+    box-sizing: border-box;
+}
+
+.container .title {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.11rem;
+    color: #727272;
+}
+
+.container .title i {
+    font-size: 0.165rem;
+    vertical-align: middle;
+}
+
+.container .list ul li {
+    display: flex;
+    margin-top: 0.22rem;
+    height: 0.33rem;
+}
+
+.container .list ul li a {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container .list ul li i {
+    display: flex;
+    color: #b3b3b3;
+    font-size: 0.13rem;
+}
+
+.container .list ul li .left {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container .list ul li .left .img {
+    overflow: hidden;
+    width: 0.33rem;
+    height: 0.33rem;
+    border-radius: 0.09rem;
+    margin-right: 0.08rem;
+}
+
+.container .list ul li .left .img img {
+    display: flex;
+    width: 100%;
+}
+
+.container .list ul li .right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .list ul li .right .icon-bofang1 {
+    font-size: 0.20rem;
+    margin-right: 0.163rem;
+}
+
+.container .list ul li .top {
+    font-size: 0.11rem;
+}
+
+.container .list ul li .bottom {
+    font-size: 0.08rem;
+    color: #808080;
+}
+
+.container .play {
+    position: fixed;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0 0.19rem 0 0.047rem;
+    bottom: 0;
+    height: 0.39rem;
+    border-top: #ddd solid 0.002rem;
+    background-color: #fff;
+    display: none;
+}
+
+.container .play a {
+    display: flex;
+    align-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.container .play .left {
+    display: flex;
+    align-items: center;
+}
+
+.container .play .left .img {
+    overflow: hidden;
+    width: 0.3rem;
+    height: 0.3rem;
+    border-radius: 50%;
+    background-color: red;
+    margin-right: 0.047rem;
+}
+
+.container .play .left .img img {
+    display: flex;
+    width: 100%;
+}
+
+.container .play .left .top {
+    font-size: 0.08rem;
+}
+
+.container .play .left .bottom {
+    font-size: 0.077rem;
+    color: #909090;
+}
+
+.container .play .center {
+    flex: 1;
+}
+
+.container .play .right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .play .right .stop {
+    display: flex;
+    margin-right: 0.177rem;
+    justify-content: center;
+    align-items: center;
+    width: 0.2rem;
+    height: 0.2rem;
+    border-radius: 50%;
+    border: 0.009rem solid #8c8c8c;
+}
+
+
+/* .container .play .right .stop .progress {
+    width: 100%;
+    height: 0.009rem;
+    background-color: #ff3a3a;
+    border-radius: 50%;
+} */
+
+.container .play .right i {
+    display: flex;
+    font-size: 0.16rem;
+    color: #4d4d4d;
+}

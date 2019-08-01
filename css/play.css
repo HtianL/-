@@ -1,0 +1,225 @@
+@charset "UTF-8";
+.bg {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: radial-gradient(circle closest-corner at center 40%, #350f0e 1.14rem, #120e0e);
+}
+
+.bg .title {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    box-sizing: border-box;
+    height: 0.278rem;
+    padding: 0 0.13rem;
+    margin-top: 0.148rem;
+    color: #fff;
+}
+
+.bg .title .back {
+    display: flex;
+    width: 1.03rem;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bg .title .back .left {
+    display: flex;
+    width: 0.162rem;
+    margin-right: 0.14rem;
+    align-items: center;
+    color: #fff;
+}
+
+
+/* 
+.bg .title .back .left a {
+    display: flex;
+    width: 100%;
+    
+} */
+
+.bg .title .back .left i {
+    display: flex;
+    font-size: 0.148rem;
+}
+
+.bg .title .back .right {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.bg .title .back .right .top {
+    font-size: 0.106rem;
+}
+
+.bg .title .back .right .bottom {
+    font-size: 0.103rem;
+    color: #736e6e;
+}
+
+.bg .title .share {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bg .title .share i {
+    font-size: 0.177rem;
+}
+
+.bg .cd {
+    position: absolute;
+    left: 50%;
+    top: 0.65rem;
+    margin-left: -1.16rem;
+    width: 2.32rem;
+    height: 2.32rem;
+    border-radius: 50%;
+    border: 0.06rem solid #391616;
+    background: #101012;
+}
+
+.bg .cd .img {
+    overflow: hidden;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -0.79rem;
+    margin-top: -0.79rem;
+    width: 1.58rem;
+    height: 1.58rem;
+    border-radius: 50%;
+    background-color: #fff;
+    border: 0.03rem solid #0c080a;
+}
+
+.bg .cd .img img {
+    width: 100%;
+}
+
+.bg .comment {
+    position: absolute;
+    width: 100%;
+    bottom: 0.92rem;
+}
+
+.bg .comment ul {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.bg .comment i {
+    display: flex;
+    color: #fff;
+    font-size: 0.192rem;
+}
+
+.bg .control {
+    position: absolute;
+    width: 100%;
+    bottom: 0.177rem;
+}
+
+.bg .control .progress {
+    display: flex;
+    width: 100%;
+    box-sizing: border-box;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 0.16rem;
+}
+
+.bg .control .progress .time {
+    width: 0.22rem;
+    font-size: 0.059rem;
+    align-content: center;
+    color: #312a2a;
+}
+
+.bg .control .progress .bar {
+    position: relative;
+    flex: 1;
+    margin: 0.21rem 0.07rem;
+    height: 0.03rem;
+    background-color: #312a2a;
+}
+
+.bg .control .progress .bar .move {
+    height: 0.03rem;
+    background-color: #5a5555;
+}
+
+.bg .control .progress .bar .move .ball {
+    position: absolute;
+    width: 0.05rem;
+    height: 0.05rem;
+    top: -0.0125rem;
+    left: 0;
+    line-height: 0.05rem;
+    border-radius: 50%;
+    background-color: #fff;
+}
+
+.bg .control ul {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.bg .control i {
+    display: flex;
+    color: #fff;
+    font-size: 0.165rem;
+}
+
+.bg .control .icon-pause {
+    font-size: 0.24rem;
+}
+
+.bg .control .icon-bofang {
+    font-size: 0.24rem;
+}
+
+.bg .lyric {
+    overflow: hidden;
+    position: fixed;
+    /* background-color: #fff; */
+    top: 0.7rem;
+    left: 0;
+    right: 0;
+    bottom: 0.8rem;
+}
+
+.bg .lyric .play_lyric {
+    position: absolute;
+    top: 1rem;
+    left: 0;
+    right: 0;
+    transform: 0.1s linear;
+}
+
+.bg .lyric .play_lyric p {
+    position: relative;
+    height: 0.34rem;
+    line-height: 0.34rem;
+    text-align: center;
+    font-size: 0.11rem;
+    color: #8e8484;
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg)
+    }
+    100% {
+        transform: rotate(360deg)
+    }
+}

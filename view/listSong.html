@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=320, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>ListSong</title>
+    <link rel="stylesheet" href="../css/listSong.css">
+    <link rel="stylesheet" href="../iconfont/iconfont.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.0/css/swiper.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.0/js/swiper.min.js"></script>
+    <script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.min.js"></script>
+    <script src="../js/listSong.js"></script>
+</head>
+
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    
+    a {
+        color: #000;
+        text-decoration: none;
+    }
+    
+    ul,
+    li {
+        list-style: none;
+    }
+</style>
+
+<body>
+    <div class="header">
+        <div class="title">
+            <div class="back">
+                <a href="../index.html"><i class="iconfont icon-youjiantou"></i></a>
+            </div>
+            <div class="center"></div>
+            <div class="help">
+                <a href="#"><i class="iconfont icon-wenhaoyuanyiwenxianxing"></i></a>
+            </div>
+        </div>
+        <div class="text">
+            <div class="Inosuke">
+                <div class="left"><span>23</span> / 06</div>
+                <div class="right">
+                    <img src="" alt="">
+                    <span>我是一隻小小鳥</span>
+                </div>
+            </div>
+            <div class="friends">
+                <div class="left">
+                    asdasfafafasfa
+                </div>
+                <div class="right">
+                    <img src="" alt="">
+                    <i> ... </i>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="title">
+            <div class="left">
+                <i class="iconfont icon-bofang"></i>
+                <span>播放全部</span>
+            </div>
+            <div class="right">
+                <i class="iconfont icon-liebiao"></i>
+                <span>多選</span>
+            </div>
+        </div>
+        <div class="list">
+            <ul class="listSong">
+                <!-- <li>
+                    <a href="" class="playing">
+                        <div class="left">
+                            <div class="img">
+                                <img src="${item.song.album.picUrl}" alt="">
+                            </div>
+                            <div class="text">
+                                <div class="top">${item.name}</div>
+                                <div class="bottom">夏日入侵企劃</div>
+                            </div>
+                        </div>
+                        <div class="right">
+                            <i class="iconfont icon-bofang1"></i>
+                            <i class="iconfont icon-more1170511easyiconnet"></i>
+                        </div>
+                    </a>
+                </li> -->
+            </ul>
+            <div class="play"></div>
+            <!-- <a href="">
+                    <div class="left">
+                        <div class="img">
+                            <img src="" alt="">
+                        </div>
+                        <div class="text">
+                            <div class="top">極惡都市</div>
+                            <div class="bottom">夏日入侵企劃</div>
+                        </div>
+                    </div>
+                    <div class="center"></div>
+                    <div class="right">
+                        <div class="stop">
+                            <div class="progress"></div>
+                            <i class="iconfont icon-bofang2"></i>
+                        </div>
+                        <i class="iconfont icon-bofangliebiao"></i>
+                    </div>
+                </div>
+            </a> -->
+        </div>
+    </div>
+</body>
+<script>
+    document.documentElement.style.fontSize = 100 * (window.innerWidth / 320) + "px";
+</script>
+
+</html>
